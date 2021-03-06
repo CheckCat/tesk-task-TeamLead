@@ -169,6 +169,7 @@ body {
   font-size: 17px;
   color: white;
   text-decoration: none;
+  cursor: pointer;
 }
 .title {
   display: flex;
@@ -281,10 +282,12 @@ body {
   height: 10px;
   border-radius: 50%;
   background-color: #000;
+  cursor: pointer;
 }
 
 .pagination__item_active {
   background-color: #FF5C00;
+  cursor: default;
 }
 .timer {
   display: flex;

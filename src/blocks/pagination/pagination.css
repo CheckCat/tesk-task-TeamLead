@@ -10,8 +10,10 @@
   height: 10px;
   border-radius: 50%;
   background-color: #000;
+  cursor: pointer;
 }
 
 .pagination__item_active {
   background-color: #FF5C00;
+  cursor: default;
 }
