@@ -10,3 +10,7 @@
   text-decoration: none;
   cursor: pointer;
 }
+
+.button:hover {
+  background-color: #158B83;
+}
