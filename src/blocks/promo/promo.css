@@ -1,0 +1,57 @@
+.promo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45.5vw;
+  background-color: #65C7C6;
+}
+
+.promo__product-image {
+  height: 350px;
+}
+
+.promo__background {
+  position: absolute;
+  width: 100%;
+  z-index: 0;
+  filter: brightness(30%)
+}
+
+.promo__content-wrapper {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .promo__product-image {
+    height: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .promo__product-image {
+    height: 150px;
+  }
+}
+
+@media (max-width: 460px) {
+  .promo {
+    height: 75vw;
+  }
+
+  .promo__background {
+    display: none;
+  }
+
+  .promo__product-image {
+    height: 115px;
+  }
+}
+
+@media (max-width: 380px) {
+  .promo__product-image {
+    height: 90px;
+  }
+}

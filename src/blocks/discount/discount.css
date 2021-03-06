@@ -1,0 +1,24 @@
+.discount {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 90px 0;
+  gap: 70px;
+}
+
+.discount__content-wrapper {
+  gap: 90px;
+}
+
+@media (max-width: 586px) {
+  .discount {
+    padding: 70px 0 0;
+    gap: 50px;
+  }
+}
+
+@media (max-width: 460px) {
+  .discount__content-wrapper {
+    gap: 35px;
+  }
+}

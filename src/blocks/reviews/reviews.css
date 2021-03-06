@@ -1,0 +1,36 @@
+.reviews {
+  padding: 90px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  background-color: #9CCBCA;
+}
+
+.reviews__slider {
+  width: 40%;
+  padding: 50px 0;
+  gap: 22px;
+}
+
+@media (max-width: 1200px) {
+  .reviews__slider {
+    width: 65%;
+  }
+}
+
+@media (max-width: 768px) {
+  .reviews {
+    padding: 60px 0;
+    gap: 40px;
+  }
+
+  .reviews__slider {
+    width: 90%;
+  }
+}
+
+@media (max-width: 586px) {
+  .reviews__slider {
+    width: 95%;
+  }
+}

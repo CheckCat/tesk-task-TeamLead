@@ -1,0 +1,50 @@
+.timer {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+}
+
+.timer__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  width: 94px;
+  height: 118px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #000;
+  color: white;
+}
+
+.timer__value {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.timer__description {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+@media (max-width: 460px) {
+  .timer {
+    gap: 10px;
+  }
+
+  .timer__item {
+    width: 72px;
+    height: 106px;
+    padding: 12px;
+  }
+
+  .timer__value {
+    font-size: 43px;
+  }
+}
+
+@media (max-width: 380px) {
+  .timer {
+    gap: 5px;
+  }
+}

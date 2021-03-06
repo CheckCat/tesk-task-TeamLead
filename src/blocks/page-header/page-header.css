@@ -1,0 +1,30 @@
+.page-header {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-header__logo {
+  margin-left: 86px;
+}
+
+.page-header__contact-details {
+  padding-left: 45px;
+  flex: calc(2/7) 1 auto;
+}
+
+@media (max-width: 1200px) {
+  .page-header__logo {
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 380px) {
+  .page-header__logo {
+    margin-left: 10px;
+  }
+
+  .page-header__contact-details {
+    padding-left: 15px;
+  }
+}

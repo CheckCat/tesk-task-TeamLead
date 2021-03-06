@@ -1,0 +1,17 @@
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6px;
+  background-color: #65C7C6;
+}
+
+.contact-details__phone {
+  font-size: 17px;
+  color: #ffffff;
+}
+
+.contact-details__email {
+  font-size: 12px;
+  color: #ffffff;
+}

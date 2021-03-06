@@ -1,0 +1,28 @@
+.feature-list {
+  font-size: 17px;
+  color: #fff;
+}
+
+.feature-list__item:not(:first-child) {
+  margin-top: 27px;
+}
+
+.feature-list__item_theme_advantages:not(:first-child) {
+  margin-top: 13px;
+}
+
+.feature-list__item_theme_advantages {
+  font-size: 14px;
+  font-weight: 500;
+  color: #3A3A3A;
+}
+
+@media (max-width: 768px) {
+  .feature-list {
+    font-size: 14px;
+  }
+
+  .feature-list__item:not(:first-child) {
+    margin-top: 5px;
+  }
+}

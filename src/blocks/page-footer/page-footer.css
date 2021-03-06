@@ -1,0 +1,10 @@
+.page-footer {
+  padding: 82px 0;
+  background-color: #9CCBCA;
+}
+
+@media (max-width: 1024px) {
+  .page-footer {
+    padding: 41px 0;
+  }
+}

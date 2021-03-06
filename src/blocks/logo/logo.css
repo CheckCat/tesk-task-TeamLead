@@ -1,0 +1,17 @@
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 27px;
+  text-decoration: none;
+}
+
+.logo__title {
+  font-size: 25px;
+  color: #4F4A4A;
+}
+
+@media (max-width: 380px) {
+  .logo {
+    gap: 10px;
+  }
+}

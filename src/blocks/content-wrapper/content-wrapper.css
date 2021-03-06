@@ -1,0 +1,22 @@
+.content-wrapper {
+  display: flex;
+  gap: 120px;
+}
+
+@media (max-width: 768px) {
+  .content-wrapper {
+    gap: 60px;
+  }
+}
+
+@media (max-width: 460px) {
+  .content-wrapper {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 380px) {
+  .content-wrapper {
+    gap: 20px;
+  }
+}

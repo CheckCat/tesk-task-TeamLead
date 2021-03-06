@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('fonts/Roboto.ttf');
+}
+
+@import "blocks/reset/reset.css";
+@import "blocks/container/container.css";
+@import "blocks/logo/logo.css";
+@import "blocks/contact-details/contact-details.css";
+@import "blocks/content-wrapper/content-wrapper.css";
+@import "blocks/description/description.css";
+@import "blocks/feature-list/feature-list.css";
+@import "blocks/button/button.css";
+@import "blocks/title/title.css";
+@import "blocks/slider/slider.css";
+@import "blocks/pagination/pagination.css";
+@import "blocks/timer/timer.css";
+@import "blocks/prices/prices.css";
+@import "blocks/application-form/application-form.css";
+
+@import "blocks/page-header/page-header.css";
+@import "blocks/promo/promo.css";
+@import "blocks/product-composition/product-composition.css";
+@import "blocks/reviews/reviews.css";
+@import "blocks/advantages/advantages.css";
+@import "blocks/discount/discount.css";
+@import "blocks/page-footer/page-footer.css";
